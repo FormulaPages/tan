@@ -1,0 +1,24 @@
+{
+  "name": "formula-tan",
+  "version": "1.0.2",
+  "description": "TAN function",
+  "main": "TAN.js",
+  "scripts": {
+    "test": "mocha test",
+    "build": "babel TAN.es6 -m umd --out-file TAN.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/tan.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/tan/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/tan#readme",
+  "dependencies": {
+    "formula-errors": "^1.0.2",
+    "formula-isnumber": "^1.0.1"
+  }
+}
