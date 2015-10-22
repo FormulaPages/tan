@@ -4,8 +4,7 @@
   "description": "TAN function",
   "main": "TAN.js",
   "scripts": {
-    "test": "mocha test",
-    "build": "babel TAN.es6 -m umd --out-file TAN.js"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
